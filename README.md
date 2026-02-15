@@ -1,39 +1,26 @@
-# HireFlow – AI-Powered Semantic Intelligence 🚀
+# HireFlow – AI-Powered Talent Intelligence 🚀
+
+![HireFlow Banner](./hireflow_github_banner.png)
 
 HireFlow is a next-generation, AI-driven recruitment platform that uses semantic intelligence to bridge the gap between technical talent and world-class product teams.
 
 ## 🏗️ System Architecture
 - **Frontend**: React 18 + Vite (Premium Glassmorphic UI)
-- **Primary Backend**: Spring Boot 3 (Java 17) + MySQL
-- **AI Engine**: FastAPI (Python 3.13) + BERT (Sentinel Transformers)
+- **Backend**: Spring Boot 3 (Java 17) + MySQL
+- **Intelligence**: Built-in AI logic for resume analysis and semantic matching.
 
 ---
 
 ## 🚦 Getting Started: Run Commands
 
-To run the full project, you need to start three separate components in order.
+To run the project, follow these two steps.
 
-### 1️⃣ Step 1: Python AI Semantic Engine
-This service provides the "brains" of the platform, handling semantic matching and job recommendations.
-
-```bash
-# Navigate to the engine directory
-cd hireflow-ai-engine
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Start the AI Server
-python main.py
-```
-*The engine runs on `http://localhost:8000`*
-
----
-
-### 2️⃣ Step 2: Spring Boot Backend
+### 1️⃣ Step 1: Spring Boot Backend
 The core platform logic, user management, and database integration.
 
-**Prerequisites:** Ensure your MySQL service is running and you have created a database named `hireflow`.
+**Prerequisites:** 
+- Ensure your MySQL service is running.
+- Create a database named `hireflow`.
 
 ```bash
 # Navigate to the backend directory
@@ -49,8 +36,8 @@ cd hireflow-ai-backend/hireflow-ai-backend
 
 ---
 
-### 3️⃣ Step 3: React Frontend
-The high-fidelity user interface.
+### 2️⃣ Step 2: React Frontend
+The high-fidelity user interface with premium glassmorphism.
 
 ```bash
 # Navigate to the frontend directory
@@ -67,20 +54,19 @@ npm run dev
 ---
 
 ## 🛠️ Key Features
-- **AI Resume matching**: BERT-powered semantic analysis of candidates vs requirements.
-- **Executive Intelligence**: Real-time admin analytics with PowerBI-style reporting.
+- **AI Talent Matching**: Intelligent analysis of candidate profiles against job requirements.
+- **Executive Intelligence**: Real-time admin analytics with sophisticated reporting.
 - **Glassmorphic UI**: High-end visual design with dark mode and atmospheric effects.
-- **Smart Recommendations**: Concept-based matching (e.g., matching "React" skills with "Frontend" roles automatically).
+- **Role-Based Access**: Specialized dashboards for Admins and Job Seekers.
 
 ## 📊 Infrastructure Status
 | Component | Status | Port |
 | :--- | :--- | :--- |
-| **AI Engine** | Python 3.13 | 8000 |
-| **Core API** | Java 17 | 8080 |
-| **Frontend** | React/Vite | 5173 |
+| **Core API** | Java 17 / Spring Boot 3 | 8080 |
+| **Frontend** | React 18 / Vite | 5173 |
+| **Database** | MySQL | 3306 |
 
 ---
 *Built for the next generation of technical capital.*
 
-
-Technologies Used: Java 17, Spring Boot, Python 3.10+, FastAPI, React v18, MySQL, Sentence Transformers (MiniLM), JWT, Axios, Tika.
+**Technologies Used:** Java 17, Spring Boot, React v18, MySQL, JWT, Axios, Glassmorphism CSS.
